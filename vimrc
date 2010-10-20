@@ -6,7 +6,9 @@ filetype plugin indent on
 " Turns of Vim's vi compatiblity
 set nocompatible
 
-" Prevents some security exploits (http://lists.alioth.debian.org/pipermail/pkg-vim-maintainers/2007-June/004020.html)
+" Prevents some security exploits
+" http://lists.alioth.debian.org/pipermail/pkg-vim-maintainers/2007-June/004020.html
+set modelines=0
 
 " Controls tab width (http://vimcasts.org/episodes/tabs-and-spaces/)
 " This will create 2 space tabs and not convert them to spaces.
@@ -130,9 +132,12 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Command for NERD tree
+noremap <leader>d :NERDTreeToggle<cr>
+
 " Font
 set guifont=Menlo:12
 
 " Colors
 let moria_style='dark'
-colo moria
+colorscheme moria
