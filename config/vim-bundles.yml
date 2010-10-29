@@ -1,5 +1,5 @@
-#-
-  #url   : git://github.com/scrooloose/nerdtree.git
+-
+  url   : git://github.com/scrooloose/nerdtree.git
 -
   url     : git://github.com/wincent/Command-T.git
   command : rake make
