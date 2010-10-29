@@ -56,12 +56,6 @@ set backspace=indent,eol,start
 " Always show status line
 set laststatus=2
 
-" Lines numbers relative to current line
-set relativenumber
-
-" Create file of undo info
-set undofile
-
 " Change leader key from \ to ,
 let mapleader = ","
 
@@ -89,7 +83,6 @@ vnoremap <tab> %
 set wrap
 set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=85
 
 " Show invisible characters like TextMate
 set list
