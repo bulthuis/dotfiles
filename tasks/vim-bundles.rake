@@ -1,3 +1,5 @@
+require 'yaml'
+
 namespace :vim_bundles do
 	directory 'vim/doc'
 
