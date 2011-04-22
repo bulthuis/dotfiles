@@ -132,5 +132,6 @@ noremap <leader>d :NERDTreeToggle<cr>
 set guifont=Menlo:12
 
 " Colors
-let moria_style='dark'
-colorscheme moria
+syntax enable
+set background=dark
+colorscheme solarized

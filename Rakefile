@@ -1,4 +1,5 @@
 require 'rake'
+require 'yaml'
 require 'erb'
 import 'tasks/vim-bundles.rake'
 

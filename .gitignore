@@ -2,3 +2,4 @@ src
 vim/autoload
 vim/bundle
 vim/doc
+vim/.netrwhist
