@@ -129,7 +129,14 @@ nnoremap <C-l> <C-w>l
 noremap <leader>d :NERDTreeToggle<cr>
 
 " Font
-set guifont=Menlo:12
+" Set font according to system
+"if MySys() == "mac"
+"  set guifont=Menlo:h12
+"elseif MySys() == "windows"
+"  set guifont=Bitstream\ Vera\ Sans\ Mono:h10
+"elseif MySys() == "linux"
+  set guifont=Monospace\ 11
+"endif
 
 " Colors
 syntax enable
