@@ -4,7 +4,7 @@ else
   export PS1='%3~$(git_info_for_prompt)%# '
 fi
 
-export EDITOR='mvim'
+export EDITOR='mate'
 export PATH="$HOME/bin:$HOME/.bin:/usr/local/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/var/lib/gems/1.8/bin:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
